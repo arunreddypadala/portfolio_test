@@ -46,7 +46,7 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Mobile Application Developer",
     icon: mobile,
   },
   {
@@ -54,7 +54,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Full Stack Developer",
     icon: creator,
   },
 ];
@@ -73,7 +73,7 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: "TypeScript",
+    name: "Java",
     icon: typescript,
   },
   {
@@ -81,11 +81,11 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
+    name: "Python",
     icon: redux,
   },
   {
-    name: "Tailwind CSS",
+    name: "MySQL",
     icon: tailwind,
   },
   {
@@ -105,66 +105,66 @@ const technologies = [
     icon: git,
   },
   {
-    name: "figma",
+    name: "AWS",
     icon: figma,
   },
   {
-    name: "docker",
+    name: "Android",
     icon: docker,
   },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
+    title: "Associate Solution Advisor",
+    company_name: "Deloitte LLP",
     icon: starbucks,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "June 2019 - August 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Contributed in various phases of SDLC stages including requirements, design, development and testing.",
+      "Developed REST based microservices for Deloitte’s internal applications using Spring Boot. Worked extensively on Java Collections API to handle object data transfer between business layer and front-end layer.",
+      "Utilised Spring MVC and JPA to implement design patterns related to dependency injection, ORM, and DAO.",
+      "Executed complex queries, triggers and stored procedures. Performed query optimisation using indexing and caching.",
+      "Developed robust and maintainable test cases and performed unit testing using JUnit and Mockito.",
+      "Tech Stack: REST API, Spring Boot, MVC, JUnit, MySQL",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
+    title: "Data Analyst Intern",
+    company_name: "Deloitte LLP",
     icon: tesla,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "December 2018 - February 2019",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Spearheaded client walkthroughs to comprehend their IT environment, and performed risk assessments with respect to the financial applications.",
+      "Helped clients pivot away from manual data reconciled to using Deloitte’s internal automation tools which reduced the clients operational cost overhead by 500K USD.",
+      "Worked on SAS, SQL and Optix (Deloitte Internal Tool) to transform and document financial data into insights for multiple clients. Also, verified the completeness and accuracy of the data.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
+    title: "Full Stack Developer Intern",
+    company_name: "Stumagz",
     icon: shopify,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "April 2018 - August 2018",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed intuitive, responsive, and functional web pages to provide metrics related to user interaction data. Implemented pagination, title, tags search, and client-side routing.",
+      "Integrated the web pages into main website which helped the team enhance user experience, identify and remediate bottlenecks leading to an increase in user traffic by 9%.",
+      "Tech Stack: JavaScript, React, Node, MongoDB",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
+    title: "Software Developer Intern",
+    company_name: "ECS",
     icon: meta,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "April 2017 - August 2017",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed Restful Web Services related to customer search to improve search results based on application id, mobile number, or applicant name for a financial services firm.",
+      "Decreased application search time by more than 30% compared to the native modules of previous builds by performing Multithreading and utilising Java Caching System.",
+      "Implemented a web service to push the eKYC document to Document Management System (DMS) and mark the applicant as registered, and recorded the timestamp of the transaction in the database. ",
+      "Tech Stack: Java, Spring Boot, MVC, MySQL",
     ],
   },
 ];
@@ -198,67 +198,67 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Virtual Interview Training",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "VR application designed based on user feedback from a prototype that simulates a virtual interview session between interviewer (virtual avatar) and an interviewee.",
     tags: [
       {
-        name: "react",
+        name: "C#",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Unity",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "GPT-3",
         color: "pink-text-gradient",
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/arunreddy-padala",
   },
   {
-    name: "Job IT",
+    name: "Fantasy Football League",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Developed an android application that presents data related to player rankings, trades, standings, current, and previous league information on multiple screens.",
     tags: [
       {
-        name: "react",
+        name: "Android",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Java",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "SQLite",
         color: "pink-text-gradient",
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/arunreddy-padala",
   },
   {
-    name: "Trip Guide",
+    name: "Dungeon Crawler",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Programmed a Dungeon maze game that supports interactive features like movement, custom layout, ability to capture creatures, and treasure.",
     tags: [
       {
-        name: "nextjs",
+        name: "Java",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "MVC",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Junit",
         color: "pink-text-gradient",
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/arunreddy-padala",
   },
 ];
 
